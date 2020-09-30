@@ -1,18 +1,21 @@
 <?php
 
-function first_function($word): string
+function first_function(string $word): string
 {
     return $word . " World!";
 }
 
-function second()
+function second(): float
 {
     return 123.30;
 }
 
-function third()
+function third(string $letter): array
 {
     return ['A', 'B', $letter];
 }
 
-// Tähän tulee fourth()
+function fourth(int $a, int $b): int
+{
+	return $a + $b;
+}

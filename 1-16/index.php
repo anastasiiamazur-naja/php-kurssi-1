@@ -11,3 +11,8 @@ $lastNames = [
     'Testinen'
 ];
 
+foreach ($firstNames as $firstName) {
+	foreach ($lastNames as $lastName) {
+		echo $firstName . " " . $lastName . "<br>";
+	}
+}
